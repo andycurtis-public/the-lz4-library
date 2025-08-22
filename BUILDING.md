@@ -37,7 +37,7 @@ sudo apt-get update && sudo apt-get install -y valgrind gdb python3 python3-venv
 Clone & build:
 
 ```bash
-git clone --depth 1 "https://github.com/knode-ai-open-source/a-memory-library.git" "a-memory-library"
+git clone --depth 1 "https://github.com/andycurtis-public/a-memory-library.git" "a-memory-library"
 cd a-memory-library
 ./build.sh install
 cd ..
@@ -113,7 +113,7 @@ ENV PATH="/opt/venv/bin:${PATH}"
 
 # --- Build & install a-memory-library ---
 RUN set -eux; \
-  git clone --depth 1 "https://github.com/knode-ai-open-source/a-memory-library.git" "a-memory-library" && \
+  git clone --depth 1 "https://github.com/andycurtis-public/a-memory-library.git" "a-memory-library" && \
   cd a-memory-library && \
   ./build.sh install && \
   cd .. && \
